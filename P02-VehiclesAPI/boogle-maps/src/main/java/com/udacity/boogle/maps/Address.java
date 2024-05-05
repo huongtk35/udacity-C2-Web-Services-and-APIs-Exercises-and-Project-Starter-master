@@ -1,7 +1,15 @@
+/**
+ * @author RoseDao
+ * @email huongtk35@gmail.com
+ * @create date 2024-05-05 22:10:02
+ * @modify date 2024-05-05 22:10:02
+ * @desc [description]
+ */
+
 package com.udacity.boogle.maps;
 
 /**
- * Declares a class to store an address, city, state and zip code.
+ * Declares a class to store an address, city, state and zip code.`
  */
 public class Address {
 
