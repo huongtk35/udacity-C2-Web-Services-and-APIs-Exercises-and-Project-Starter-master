@@ -1,10 +1,19 @@
+/**
+ * @author RoseDao
+ * @email huongtk35@gmail.com
+ * @create date 2024-05-05 22:14:52
+ * @modify date 2024-05-05 22:14:52
+ * @desc [description]
+ */
+
 package com.udacity.vehicles.domain.car;
 
-import com.udacity.vehicles.domain.manufacturer.Manufacturer;
 import javax.persistence.Embeddable;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+
+import com.udacity.vehicles.domain.manufacturer.Manufacturer;
 
 /**
  * Declares the additional detail variables for each Car object,

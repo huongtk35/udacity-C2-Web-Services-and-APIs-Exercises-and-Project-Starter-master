@@ -1,8 +1,16 @@
+/**
+ * @author RoseDao
+ * @email huongtk35@gmail.com
+ * @create date 2024-05-05 22:13:46
+ * @modify date 2024-05-05 22:13:46
+ * @desc [description]
+ */
+
 package com.udacity.vehicles.api;
 
 import java.util.List;
 import java.util.stream.Collectors;
-import org.springframework.hateoas.VndErrors;
+
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

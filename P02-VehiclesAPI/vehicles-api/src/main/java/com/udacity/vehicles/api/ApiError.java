@@ -1,7 +1,16 @@
+/**
+ * @author RoseDao
+ * @email huongtk35@gmail.com
+ * @create date 2024-05-05 22:13:20
+ * @modify date 2024-05-05 22:13:20
+ * @desc [description]
+ */
+
 package com.udacity.vehicles.api;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 /**
  * Declares methods to return errors and other messages from the API.

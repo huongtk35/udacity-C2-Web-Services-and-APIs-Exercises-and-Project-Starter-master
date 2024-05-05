@@ -1,12 +1,22 @@
+/**
+ * @author RoseDao
+ * @email huongtk35@gmail.com
+ * @create date 2024-05-05 22:14:02
+ * @modify date 2024-05-05 22:14:02
+ * @desc [description]
+ */
+
 package com.udacity.vehicles.client.maps;
 
-import com.udacity.vehicles.domain.Location;
 import java.util.Objects;
+
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
+
+import com.udacity.vehicles.domain.Location;
 
 /**
  * Implements a class to interface with the Maps Client for location data.
