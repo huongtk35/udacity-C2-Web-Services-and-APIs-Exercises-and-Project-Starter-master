@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EurekaApplication",
+            "request": "launch",
+            "mainClass": "com.udacity.eureka.EurekaApplication",
+            "projectName": "eureka"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
